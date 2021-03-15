@@ -1,0 +1,17 @@
+package lab1;
+
+public class accessModifiers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		specificModifier obj = new specificModifier();
+
+	}
+
+}
+class specificModifier{
+	
+	void display() {
+		System.out.println("Inside display method");
+	}
+}
